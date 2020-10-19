@@ -1,6 +1,17 @@
 import java.util.Enumeration;
 
 public class TextStatement extends Statement {
+
+  public String rentalCustomer(Customer aCustomer) {
+    return "";
+  }
+  public String rentalFigures(Customer aCustomer){
+    return "";
+  }
+  public String rentalFooter(Customer aCustomer){
+    return "";
+  }
+
    public String value(Customer aCustomer) {
       Enumeration rentals = aCustomer.getRentals();
       String result = "Rental Record for " + aCustomer.getName() +

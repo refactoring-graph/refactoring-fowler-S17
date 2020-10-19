@@ -1,5 +1,16 @@
 import java.util.Enumeration;
 public class HtmlStatement extends Statement {
+
+  public String rentalCustomer(Customer aCustomer) {
+    return "";
+  }
+  public String rentalFigures(Customer aCustomer){
+    return "";
+  }
+  public String rentalFooter(Customer aCustomer){
+    return "";
+  }
+  
    public String value(Customer aCustomer) {
       Enumeration rentals = aCustomer.getRentals();
       String result = "<H1>Rentals for <EM>" + aCustomer.getName() +
